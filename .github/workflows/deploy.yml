@@ -43,5 +43,6 @@ jobs:
             cd /home/ubuntu/
             git clone https://github.com/PreciousDipe/fastapi-book-project.git
             cd fastapi-book-project/
-            git pull
+            git fetch origin main
+            git reset --hard origin/main
             sudo docker-compose up -d --build 
