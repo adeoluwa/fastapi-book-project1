@@ -41,7 +41,7 @@ jobs:
 
             # Navigate to the project directory and deploy
             cd /home/ubuntu/
-            git clone https://github.com/PreciousDipe/fastapi-book-project.git
+            git clone https://github.com/adeoluwa/fastapi-book-project1
             cd fastapi-book-project/
             git fetch origin main
             git reset --hard origin/main
