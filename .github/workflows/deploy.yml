@@ -47,6 +47,8 @@ jobs:
             git reset --hard origin/main
 
             sudo docker stop fastapi-app
-
+            
+            sudo docker rm fastapi-app
+            
             # Start the application
             sudo docker-compose up -d --build 
