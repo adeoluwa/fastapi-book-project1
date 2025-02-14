@@ -42,7 +42,7 @@ jobs:
             # Navigate to the project directory and deploy
             cd /home/ubuntu/
             git clone https://github.com/adeoluwa/fastapi-book-project1
-            cd fastapi-book-project/
+            cd fastapi-book-project1/
             git fetch origin main
             git reset --hard origin/main
 
